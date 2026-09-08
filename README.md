@@ -6,7 +6,7 @@ Goal: move from using frameworks to being able to explain why they run at the sp
 Deliberate constraint: 1 hour per day, no local NVIDIA GPU. Kaggle (2×T4, free),
 Colab Pro (L4, 10 USD) and nothing else.
 
-| # | Week | Question answered | Status |
+| # | Block | Question answered | Status |
 |---|---|---|---|
 | [01](01-triton-puzzles/) | Triton mechanics | What is a kernel and how do you think in blocks? | in progress |
 | [02](02-kernels/) | Measured kernels | Is this kernel memory-bound or compute-bound, and at what % of peak? | pending |
