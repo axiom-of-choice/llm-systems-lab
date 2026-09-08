@@ -1,17 +1,17 @@
 # llm-systems-lab
 
-Cuatro experimentos de sistemas de ML, medidos, en cuatro semanas (8 sep a 5 oct 2026).
-Objetivo: pasar de usar frameworks a poder explicar por qué van a la velocidad que van.
+Four ML systems experiments, measured, over four weeks (Sep 8 to Oct 5 2026).
+Goal: move from using frameworks to being able to explain why they run at the speed they do.
 
-Restricción deliberada: 1 hora al día, sin GPU NVIDIA local. Kaggle (2×T4, gratis),
-Colab Pro (L4, 10 USD) y nada más.
+Deliberate constraint: 1 hour per day, no local NVIDIA GPU. Kaggle (2×T4, free),
+Colab Pro (L4, 10 USD) and nothing else.
 
-| # | Semana | Pregunta que responde | Estado |
+| # | Week | Question answered | Status |
 |---|---|---|---|
-| [01](01-triton-puzzles/) | Triton, la mecánica | ¿Qué es un kernel y cómo se piensa por bloques? | en curso |
-| [02](02-kernels/) | Kernels medidos | ¿Este kernel es memory-bound o compute-bound, y a qué % del techo está? | pendiente |
-| [03](03-distributed/) | Multi-GPU | ¿Por qué la eficiencia de escalado no es 1.0? | pendiente |
-| [04](04-inference/) | Inferencia distribuida | ¿Dónde está el cuello de botella en decode con tensor parallel? | pendiente |
+| [01](01-triton-puzzles/) | Triton mechanics | What is a kernel and how do you think in blocks? | in progress |
+| [02](02-kernels/) | Measured kernels | Is this kernel memory-bound or compute-bound, and at what % of peak? | pending |
+| [03](03-distributed/) | Multi-GPU | Why is scaling efficiency not 1.0? | pending |
+| [04](04-inference/) | Distributed inference | Where is the bottleneck in decode with tensor parallel? | pending |
 
-Cada experimento sigue el mismo formato: qué quería mejorar, cuál era el baseline, cómo lo medí,
-qué cambió y por qué, qué generaliza. Sin número medido no hay entrada.
+Each experiment follows the same format: what I wanted to improve, what the baseline was, how I measured it,
+what changed and why, what generalizes. Without measured numbers, there is no entry.
