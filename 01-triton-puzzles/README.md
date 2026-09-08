@@ -1,13 +1,18 @@
 # 01 · Triton Puzzles
 
-The 12 puzzles from [Triton-Puzzles-Lite](https://github.com/SiriusNEO/Triton-Puzzles-Lite),
-solved in the Triton interpreter (CPU, Kaggle, no GPU).
+The 12 puzzles from [Triton-Puzzles-Lite](https://github.com/SiriusNEO/Triton-Puzzles-Lite), solved in
+the Triton interpreter (CPU, no GPU needed).
+
+The harness is vendored here (Apache 2.0, see `NOTICE`), so this directory is self-contained: the
+problem statements live inside `puzzles.py` as docstrings. `puzzles_ans.py` is deliberately not
+vendored.
 
 ```bash
-git clone https://github.com/SiriusNEO/Triton-Puzzles-Lite
-cd Triton-Puzzles-Lite
-TRITON_INTERPRET=1 python3 puzzles.py -p 1
+TRITON_INTERPRET=1 python3 puzzles.py -p 1     # one puzzle
+TRITON_INTERPRET=1 python3 puzzles.py -a       # all, stops at the first failure
 ```
+
+Triton has no macOS wheels, so this runs on Kaggle (CPU session) or in a linux/arm64 container.
 
 | Puzzle | Concept | Day | Status |
 |---|---|---|---|
