@@ -3,9 +3,12 @@
 The 12 puzzles from [Triton-Puzzles-Lite](https://github.com/SiriusNEO/Triton-Puzzles-Lite), solved in
 the Triton interpreter (CPU, no GPU needed).
 
-The harness is vendored here (Apache 2.0, see `NOTICE`), so this directory is self-contained: the
-problem statements live inside `puzzles.py` as docstrings. `puzzles_ans.py` is deliberately not
-vendored.
+The harness is vendored here (Apache 2.0, see `NOTICE`), so this directory is self-contained.
+
+- `puzzles.md` is the manual: every puzzle with its diagram of the memory access pattern. Read the
+  diagram before writing the kernel. GitHub and Obsidian both render it.
+- `puzzles.py` holds the same statements as docstrings, plus the harness you edit.
+- `puzzles_ans.py` is deliberately not vendored.
 
 ```bash
 TRITON_INTERPRET=1 python3 puzzles.py -p 1     # one puzzle

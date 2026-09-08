@@ -1,4 +1,4 @@
-puzzles.py, display.py, tensor_type.py, test_puzzle.py and interpreter.py are vendored from
+puzzles.md, puzzles.py, display.py, tensor_type.py, test_puzzle.py and interpreter.py are vendored from
 Triton-Puzzles-Lite (https://github.com/SiriusNEO/Triton-Puzzles-Lite), Apache License 2.0.
 The upstream license is kept in LICENSE.upstream. Solutions in puzzles.py are mine.
 puzzles_ans.py is deliberately NOT vendored.
